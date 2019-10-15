@@ -1,8 +1,9 @@
 ## Password-less authentication with SSH Key Pair
 
 1. Generate SSH Key pair
-    1.1 Using `ssh-keygen` command on BASH, Git Bash terminals
-    1.2 Using PuTTY KeyGen
+
+    - Using `ssh-keygen` command on BASH, Git Bash terminals
+    - Using PuTTY KeyGen
 
 2. Generate SSH-Key Pair using PuTTY
 
@@ -29,6 +30,7 @@
     - Authentication : SSH Public Key
     - Open the file `Desktop/ssh-keypair/key.pub` in VSCode, copy entire content of file
     - Paste inside `SSH Public key` textfield on azure portal.
+    - Open Inbound port : Choose SSH(22) port
     - Click `Next`
     - Choose Disk type `Standard HDD` and click `Next`
     - Choose Virtual Network `VNet` click Next
