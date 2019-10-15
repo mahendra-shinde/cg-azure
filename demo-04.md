@@ -37,3 +37,12 @@
     - Click `Review+Create` > Click `Create`
 
 5.  Create Second VM using same steps from FirstVM (dont forget to use VM Name `secondvm`).
+
+6.  Connect firstVM using PuTTY
+
+    - Start Menu > PuTTY 
+    - Enter PUBLIC IP of FirstVM 
+    - From left side panel click `Connection` -> `SSH` -> `Auth`
+    - Click `Browse` button and locate private key file `Desktop/ssh-keypair/key.ppk`
+    - Click `Open` button > enter username 
+    - OS Won't ask for password!
